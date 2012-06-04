@@ -1,0 +1,30 @@
+[Comments]
+printer_manufacturer = Bits from Bytes Ltd
+printer_model = BfB3000
+extruded_material = ABS
+
+[Printer]
+feed_rate = 960
+move_rate = 30000
+flow_rate = 200
+layer_height = 0.25
+extrusion_width = 0.5
+max_height = 200.0
+max_radius = 100.0
+max_overhang = 50.0
+
+[Gcode]
+gcode_flow = M108
+gcode_start = M101
+gcode_stop = M103
+
+[Raft_Base]
+feed_multiplier = 0.75
+flow_multiplier = 3.00
+cruise_height = 0.7
+
+[Raft_Interface]
+feed_multiplier = 1.00
+flow_multiplier = 1.50
+cruise_height = 1.0
+
